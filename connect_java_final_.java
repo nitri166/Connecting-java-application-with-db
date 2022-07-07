@@ -46,8 +46,6 @@ public class connect_java_final {
 		
 		
 		
-		
-		
 		    if(marks1 >=0 && marks1<=10 && marks2 >=0 && marks2<=10 && marks3 >=0 && marks3<=10 && tech_marks>=0 && tech_marks<=20){
 		    	String sql ="insert into newtable values(?,?,?,?,?,?,?,?)";
 		    	p = con.prepareStatement(sql);
@@ -73,9 +71,7 @@ public class connect_java_final {
 		    }
 			}
 		
-		
-		
-			    
+		 
 		
 		/*
 		String sql = "Select *, Rank() over (Order By TechnicalRoundMarks Desc) Rank_ from newtable";
@@ -98,14 +94,6 @@ public class connect_java_final {
 		
 		
 		
-		
-		
-				
-		
-		       
-		        
-		
-        
         
         
        st.close();
